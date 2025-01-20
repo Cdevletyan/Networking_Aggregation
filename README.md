@@ -20,6 +20,7 @@ Step 2: Go into Global Configuration Mode
 
 Step 3: Create a DHCP pool
 (Command: "ip dhcp pool Chris-pool" With the name of the DHCP pool named "Chris-Pool")
+
 ![Screenshot 2025-01-12 235003](https://github.com/user-attachments/assets/7032e86b-e740-412e-90ba-1fe29410784e)
 
 Step 4: Initialize a gateway router
@@ -27,3 +28,4 @@ Step 4: Initialize a gateway router
 
 ---------> Optionally I've exempted a range of IP addresses (for the sake of practice)
 (Command: no ip dhcp excluded-addresses <starting-address> <ending-address>)
+
